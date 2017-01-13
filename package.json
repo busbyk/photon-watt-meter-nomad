@@ -1,0 +1,22 @@
+{
+  "name": "photon-watt-meter-nomad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An application to publish data from a connected watt meter to nomad.",
+  "main": "app.js",
+  "engines": {
+    "node": "6.3.1"
+  },
+  "scripts": {
+    "start": "node $NODE_DEBUG_OPTION app"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "lodash": "^4.16.4",
+    "nomad-stream": "^1.0.0",
+    "particle-api-js": "^6.2.0"
+  }
+}
